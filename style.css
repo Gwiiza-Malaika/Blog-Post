@@ -1,0 +1,18 @@
+.container{
+    background-color:white;
+width: 18%;
+box-shadow: 3px 3px 3px 3px #ccc;
+border: 1px solid blanchedalmond;
+padding: 5% 10% 10%;
+height: 90%;
+border-radius: 25px;
+/* text-align: center; */
+}
+
+.btn1{
+    float:right ;
+}
+.signin{
+    margin: -800px 80% 10%;
+
+}
