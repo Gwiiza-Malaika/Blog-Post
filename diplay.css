@@ -1,0 +1,98 @@
+.topnav{
+    background-color:black;
+    width: 100%;
+    height: 60px;
+    overflow: hidden;
+}
+.topnav a{
+    float: right;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 12px 14px;
+    text-decoration:none ;
+    font-size: 17px;
+    height: 60px;
+}
+.topnav a:hover{
+    background-color:goldenrod;
+    
+}
+body{
+    margin: 0px;
+}
+
+.search-container {
+    float: right;
+    width: 70%;
+    padding: 10px 10px;
+    padding-left: 50%;
+    margin-bottom: 20px;
+    background-color: goldenrod;
+    border: none;
+    font-size: 20px;
+
+}
+.input-search{
+    height: 15px;
+    width: 70%;
+    padding:10px;
+    border: none;
+}
+button{
+    height: 35px;
+    width: 80px;
+    margin-left: -85px;
+    border: none;
+}
+.sidenav{
+    height: 1000px;
+    width: 15%;
+    position:absolute;
+    z-index: 10;
+    top: 59.5px;
+    left: 0px;
+    background-color:goldenrod;
+    overflow-x: hidden;
+    padding-left: 0px;
+    
+}
+.sidenav a{
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    color: black;
+    display:block;
+}
+.sidenav a:hover{
+    background-color:white;
+}
+.topnav .logo{
+    width: 150px;
+    height: 80px;
+    margin-top: -10px;
+}
+.card-me{
+    background-color:white;
+    margin-left: 15%;
+    /* height: 20%; */
+}
+.pic{
+    width: 300px;
+    padding-left:40px ;
+    padding-bottom: 10px;
+}
+.message{
+    width: 70%;
+    margin-left: 15.5%;
+    
+}
+.message input,label,textarea{
+    display: block;
+    margin-bottom: 5px;
+    color:black;
+    font-size: 15px;
+}
+.post{
+    margin-left:19.5%;
+    background-color: goldenrod;
+}
